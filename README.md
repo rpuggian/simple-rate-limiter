@@ -4,7 +4,7 @@
 Simple Rate Limiter limit concurrency operations using a pool of tokens. 
 
 Sample of usage: 
-```
+```go
   //Create ratelimiter instance, should be used as singleton to all operations
   r, err := ratelimiter.NewMaxConcurrencyRateLimiter(&ratelimiter.Config{
     //Limit of pool of tokens
