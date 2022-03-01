@@ -11,7 +11,8 @@ Sample of usage:
 		Limit: 3,
 	})
   
-  // Acquire a rate limit token, if the limit of operations was achieved the operation will be sleeping here.
+  // Acquire a rate limit token
+  //if the limit of operations was achieved the operation will be sleeping here until get an avaiable token
   token, err := c.r.Acquire()
   
   //Perform Operation
