@@ -12,7 +12,7 @@ Sample of usage:
 	})
   
   // Acquire a rate limit token
-	token, err := c.r.Acquire()
+  token, err := c.r.Acquire()
   
   //Perform Operation
   
